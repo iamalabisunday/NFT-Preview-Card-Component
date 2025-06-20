@@ -46,6 +46,7 @@ body {
   padding: 1.5rem;
   border-radius: 1rem;
   background-color: var(--CardBgBlue);
+  box-shadow: 2px 2px 50px hsl(215, 41%, 8%);
 }
 
 /* Image Section */
