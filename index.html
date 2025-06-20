@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
+    <!-- Outfit Font Family Link -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Frontend Mentor | NFT preview card component</title>
+  </head>
+  <body>
+    <main class="nft-card">
+      <!-- Image Section -->
+      <section class="nft-image">
+        <div class="nft-img">
+          <div class="overlay-content"></div>
+        </div>
+        <!-- <img src="./images/image-equilibrium.jpg" alt="Equilibrium Image" class="img" /> -->
+      </section>
+
+      <!-- Text Section -->
+      <section class="nft-text">
+        <h1 class="nft-title">Equilibrium #3429</h1>
+        <p class="nft-body">Our Equilibrium collection promotes balance and calm.</p>
+
+        <article class="eth-days-section">
+          <div class="eth-section">
+            <img src="./images/icon-ethereum.svg" alt="Ethereum Icon" class="ethImg" />
+            <p class="eth-txt">0.041 ETH</p>
+          </div>
+
+          <div class="days-section">
+            <img src="./images/icon-clock.svg" alt="Clock Icon" class="daysImg" />
+            <p>3 days left</p>
+          </div>
+        </article>
+
+        <article class="profile-section">
+          <img src="./images/image-avatar.png" alt="profit image" />
+          <p class="profit-txt"><span>Creation of</span> Jules Wyvern</p>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
